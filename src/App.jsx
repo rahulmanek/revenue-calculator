@@ -168,24 +168,24 @@ const ResultsPanel = ({ currentRevenue, revenueWithMonetizeMore, uplift, formatC
         <div className="m2-bg-white m2-rounded m2-p-4 md:m2-p-8 m2-border m2-border-[#D5D5DC]">
             <h2 className="m2-text-xl md:m2-text-2xl m2-font-semibold m2-text-gray-900 m2-mb-6">Your result</h2>
             
-            <div className="m2-rounded m2-p-7 m2-mb-9 m2-relative m2-bg-[#191919]">
-                <div className="m2-flex m2-flex-row m2-items-center m2-justify-between m2-gap-4">
-                    <div className="m2-flex m2-items-start m2-my-1">
-                        <div className="m2-mr-4 mt-1.5">
-                            <svg width="28" height="103" viewBox="0 0 28 103" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14 103L14 6" stroke="white" stroke-width="3"/>
-                                <path d="M2 16L14 3L26 16" stroke="white" stroke-width="3"/>
+            <div className="m2-rounded m2-p-4 md:m2-p-6 lg:m2-p-7 m2-mb-9 m2-relative m2-bg-[#191919]">
+                <div className="m2-flex m2-flex-row m2-items-center m2-justify-between m2-gap-2 md:m2-gap-4 lg:m2-gap-6">
+                    <div className="m2-flex m2-flex-row m2-items-center m2-my-1">
+                        <div className="m2-mr-2 md:m2-mr-4 m2-mt-1.5 m2-flex-shrink-0">
+                            <svg className="m2-w-7 m2-h-auto" viewBox="0 0 28 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 103L14 6" stroke="white" strokeWidth="3"/>
+                                <path d="M2 16L14 3L26 16" stroke="white" strokeWidth="3"/>
                             </svg>
                         </div>
                         <div>
-                            <span className="m2-text-white m2-text-6xl m2-font-medium">33%</span>
-                            <p className="m2-text-gray-300 m2-text-xs md:m2-text-xs/6 m2-mt-2 m2-font-light tracking-wide">
-                                Annual Revenue Uplift with <br/>MonetizeMore
+                            <span className="m2-text-white m2-text-3xl md:m2-text-4xl lg:m2-text-5xl m2-font-medium m2-whitespace-nowrap">30-250%</span>
+                            <p className="m2-text-gray-300 m2-text-[11px] md:m2-text-xs m2-mt-2 m2-font-light m2-tracking-wide">
+                                Annual Revenue Uplift with <br className="m2-hidden sm:m2-block" />MonetizeMore
                             </p>
                         </div>
                     </div>
                     
-                    <div className="m2-flex m2-items-end m2-h-32 m2-w-34 m2-flex-shrink-0">
+                    <div className="m2-flex m2-items-end m2-h-24 m2-w-24 md:m2-h-28 md:m2-w-28 lg:m2-h-32 lg:m2-w-32 m2-flex-shrink-0 md:m2-hidden lg:m2-flex">
                         <svg width="100%" height="100%" viewBox="0 0 125 132" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                             <g clipPath="url(#clip0_587_3382)"><rect width="1" height="105" transform="matrix(1 0 0 -1 6 105)" fill="#464652"/><path d="M0 70.5C0 66.9101 2.91015 64 6.5 64C10.0899 64 13 66.9101 13 70.5V132H0V70.5Z" fill="url(#paint0_linear_587_3382)"/><rect width="1" height="68" transform="matrix(1 0 0 -1 6 132)" fill="url(#paint1_linear_587_3382)"/></g><g clipPath="url(#clip1_587_3382)"><rect width="1" height="105" transform="matrix(1 0 0 -1 34 105)" fill="#464652"/><path d="M28 50.5C28 46.9101 30.9101 44 34.5 44C38.0899 44 41 46.9101 41 50.5V132H28V50.5Z" fill="url(#paint2_linear_587_3382)"/><rect width="1" height="88" transform="matrix(1 0 0 -1 34 132)" fill="url(#paint3_linear_587_3382)"/></g><g clipPath="url(#clip2_587_3382)"><rect width="1" height="105" transform="matrix(1 0 0 -1 62 105)" fill="#464652"/><path d="M56 68.5C56 64.9101 58.9101 62 62.5 62C66.0899 62 69 64.9101 69 68.5V132H56V68.5Z" fill="url(#paint4_linear_587_3382)"/><rect width="1" height="70" transform="matrix(1 0 0 -1 62 132)" fill="url(#paint5_linear_587_3382)"/></g><g clipPath="url(#clip3_587_3382)"><rect width="1" height="105" transform="matrix(1 0 0 -1 90 105)" fill="#464652"/><path d="M84 43.5C84 39.9102 86.9101 37 90.5 37C94.0899 37 97 39.9101 97 43.5V132H84V43.5Z" fill="url(#paint6_linear_587_3382)"/><rect width="1" height="95" transform="matrix(1 0 0 -1 90 132)" fill="url(#paint7_linear_587_3382)"/></g><g clipPath="url(#clip4_587_3382)"><rect width="1" height="105" transform="matrix(1 0 0 -1 118 105)" fill="#464652"/><path d="M112 23.5C112 19.9101 114.91 17 118.5 17C122.09 17 125 19.9101 125 23.5V132H112V23.5Z" fill="url(#paint8_linear_587_3382)"/><rect width="1" height="115" transform="matrix(1 0 0 -1 118 132)" fill="url(#paint9_linear_587_3382)"/></g>
                             <defs>
@@ -222,7 +222,7 @@ const ResultsPanel = ({ currentRevenue, revenueWithMonetizeMore, uplift, formatC
             </div>
 
             <div className="m2-border-t m2-border-gray-200 m2-pt-6 m2-mb-6">
-                <div className="m2-flex m2-flex-row m2-justify-between m2-items-center">
+                <div className="m2-flex m2-flex-col m2-text-center lg:m2-text-left lg:m2-flex-row lg:m2-justify-between lg:m2-items-center m2-gap-2">
                     <span className="m2-text-gray-900 m2-text-lg m2-font-semibold">Uplift with MonetizeMore</span>
                     <span className="m2-text-3xl m2-font-semibold m2-text-gray-900">{formatCurrency(uplift)}</span>
                 </div>
@@ -363,7 +363,7 @@ const App = () => {
   return (
     // This ID is the key for the `important` strategy in the config
     <div id="m2-revenue-calculator">
-        <div className="m2-flex m2-flex-col items-center md:m2-flex-row m2-bg-gray-50 m2-p-4 md:m2-p-8 m2-font-sans">
+        <div className="m2-flex m2-flex-col md:m2-flex-row m2-bg-gray-50 m2-p-4 md:m2-p-8 m2-font-sans">
             {/* Left Panel */}
             <div className="m2-w-full md:m2-w-[55%] md:m2-pr-8 m2-mb-8 md:m2-mb-0">
                 <MetricsPanel 
